@@ -80,7 +80,16 @@
     [delegate implementMethod:@selector(collectionView:layout:insetForSectionAtIndex:) withBlock:^UIEdgeInsets(UICollectionView *collectionView ,UICollectionViewLayout *layout, NSInteger section) {
         return UIEdgeInsetsMake(0, 5, 0, 5);
     }];
-    
+    @weakify(self);
+    [delegate implementMethod:@selector(collectionView:didSelectItemAtIndexPath:) withBlock:^(UICollectionViewCell *cell,NSIndexPath *indexPath){
+        @strongify(self);
+        NSLog(@"点击了___%ld",indexPath.row);
+        //1.判断是否有代理信号
+        if (self.delegateSubject) {
+            //3.发出信号-通知执行
+            [self.delegateSubject sendNext:nil];
+        }
+    }];
     self.collectionView.delegate = (id)delegate;
 }
 //绑定viewmodel事件
