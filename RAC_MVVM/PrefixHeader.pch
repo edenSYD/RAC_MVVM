@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  RAC_MVVM
+//
+//  Created by 木槿科技 on 2018/6/26.
+//  Copyright © 2018年 深圳市木槿科技有限公司. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <ReactiveCocoa/RACEXTScope.h>
+
+#import <SVProgressHUD/SVProgressHUD.h>
+#import <Masonry/Masonry.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <BlocksKit/BlocksKit.h>
+#import <BlocksKit/A2DynamicDelegate.h>
+#import <Motis/Motis.h>
+#import <AFNetworking/AFNetworking.h>
+
+#define scaledCellValue(value) ( floorf(CGRectGetWidth(collectionView.frame) / 375 * (value)) )
+
+#endif /* PrefixHeader_pch */
