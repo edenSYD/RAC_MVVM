@@ -31,26 +31,24 @@ PODS:
     - BlocksKit/DynamicDelegate
   - Masonry (1.1.0)
   - Motis (1.4.4)
-  - ReactiveCocoa (2.5):
-    - ReactiveCocoa/UI (= 2.5)
-  - ReactiveCocoa/Core (2.5):
-    - ReactiveCocoa/no-arc
-  - ReactiveCocoa/no-arc (2.5)
-  - ReactiveCocoa/UI (2.5):
-    - ReactiveCocoa/Core
+  - ReactiveObjC (3.1.0)
   - SDWebImage (4.4.1):
     - SDWebImage/Core (= 4.4.1)
   - SDWebImage/Core (4.4.1)
   - SVProgressHUD (2.2.5)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
   - AFNetworking
   - BlocksKit
   - Masonry
   - Motis
-  - ReactiveCocoa (~> 2.5)
+  - ReactiveObjC
   - SDWebImage
   - SVProgressHUD
+  - YYKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -58,19 +56,21 @@ SPEC REPOS:
     - BlocksKit
     - Masonry
     - Motis
-    - ReactiveCocoa
+    - ReactiveObjC
     - SDWebImage
     - SVProgressHUD
+    - YYKit
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   Motis: 49f0420eae2b4c23b91c80565afc9ef6ba3fde0f
-  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
   SDWebImage: 47e9b5b925cbce75946c23f0c42dd19464189af4
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: b8f0f844ac54a87e5dc10f0277ae96d310e6ad01
+PODFILE CHECKSUM: e6349b95613f6b929f4d3bd51f6be2fd6471eaa3
 
 COCOAPODS: 1.5.2

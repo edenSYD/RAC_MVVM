@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D26ADE921226CDE00E5804B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D26ADE821226CDE00E5804B /* LoginViewController.m */; };
+		1D26ADEC21226D4300E5804B /* SYDInputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D26ADEB21226D4300E5804B /* SYDInputValidator.m */; };
+		1D26ADEE212272EF00E5804B /* backGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1D26ADED212272EE00E5804B /* backGif.gif */; };
+		1D26ADF12122730700E5804B /* SYDLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D26ADF02122730700E5804B /* SYDLoginModel.m */; };
 		1D89E7B220E0DF6D00B67CAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D89E7B120E0DF6D00B67CAE /* AppDelegate.m */; };
 		1D89E7B520E0DF6D00B67CAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D89E7B420E0DF6D00B67CAE /* ViewController.m */; };
 		1D89E7B820E0DF6D00B67CAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D89E7B620E0DF6D00B67CAE /* Main.storyboard */; };
@@ -20,6 +24,9 @@
 		1D89E80A20E2253300B67CAE /* MovieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D89E80920E2253200B67CAE /* MovieModel.m */; };
 		1D89E80D20E22A7000B67CAE /* MovieCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D89E80C20E22A7000B67CAE /* MovieCollectionViewCell.m */; };
 		1D89E81020E2336500B67CAE /* MovieViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D89E80F20E2336500B67CAE /* MovieViewModel.m */; };
+		1DAAEE6F212275C10002B7B4 /* SYDBackGifView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DAAEE6E212275C10002B7B4 /* SYDBackGifView.m */; };
+		1DAAEE72212277D50002B7B4 /* SYDTextfield.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DAAEE71212277D50002B7B4 /* SYDTextfield.m */; };
+		1DAAEE7521227A170002B7B4 /* SYDLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DAAEE7421227A170002B7B4 /* SYDLoginViewModel.m */; };
 		630090927FD931BC0834C25A /* Pods_RAC_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 822269D6A7E43D3EA2ED8D34 /* Pods_RAC_MVVM.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +48,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D26ADE721226CDE00E5804B /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		1D26ADE821226CDE00E5804B /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		1D26ADEA21226D4300E5804B /* SYDInputValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYDInputValidator.h; sourceTree = "<group>"; };
+		1D26ADEB21226D4300E5804B /* SYDInputValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYDInputValidator.m; sourceTree = "<group>"; };
+		1D26ADED212272EE00E5804B /* backGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = backGif.gif; sourceTree = "<group>"; };
+		1D26ADEF2122730700E5804B /* SYDLoginModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYDLoginModel.h; sourceTree = "<group>"; };
+		1D26ADF02122730700E5804B /* SYDLoginModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYDLoginModel.m; sourceTree = "<group>"; };
 		1D89E7AD20E0DF6D00B67CAE /* RAC_MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RAC_MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D89E7B020E0DF6D00B67CAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D89E7B120E0DF6D00B67CAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -68,6 +82,12 @@
 		1D89E80C20E22A7000B67CAE /* MovieCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieCollectionViewCell.m; sourceTree = "<group>"; };
 		1D89E80E20E2336500B67CAE /* MovieViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieViewModel.h; sourceTree = "<group>"; };
 		1D89E80F20E2336500B67CAE /* MovieViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieViewModel.m; sourceTree = "<group>"; };
+		1DAAEE6D212275C10002B7B4 /* SYDBackGifView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYDBackGifView.h; sourceTree = "<group>"; };
+		1DAAEE6E212275C10002B7B4 /* SYDBackGifView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYDBackGifView.m; sourceTree = "<group>"; };
+		1DAAEE70212277D50002B7B4 /* SYDTextfield.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYDTextfield.h; sourceTree = "<group>"; };
+		1DAAEE71212277D50002B7B4 /* SYDTextfield.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYDTextfield.m; sourceTree = "<group>"; };
+		1DAAEE7321227A170002B7B4 /* SYDLoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYDLoginViewModel.h; sourceTree = "<group>"; };
+		1DAAEE7421227A170002B7B4 /* SYDLoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYDLoginViewModel.m; sourceTree = "<group>"; };
 		822269D6A7E43D3EA2ED8D34 /* Pods_RAC_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAC_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3F2BDB708F78D98C85FF286 /* Pods-RAC_MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC_MVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAC_MVVM/Pods-RAC_MVVM.release.xcconfig"; sourceTree = "<group>"; };
 		E80C91D250C01B8CD8BB318A /* Pods-RAC_MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC_MVVM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAC_MVVM/Pods-RAC_MVVM.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,6 +151,7 @@
 				1D89E80220E224CA00B67CAE /* View */,
 				1D89E80120E224C000B67CAE /* Controller */,
 				1D89E7E720E1E01000B67CAE /* PrefixHeader.pch */,
+				1D26ADED212272EE00E5804B /* backGif.gif */,
 				1D89E7B620E0DF6D00B67CAE /* Main.storyboard */,
 				1D89E7B920E0DF6F00B67CAE /* Assets.xcassets */,
 				1D89E7BB20E0DF6F00B67CAE /* LaunchScreen.storyboard */,
@@ -165,6 +186,8 @@
 				1D89E7B420E0DF6D00B67CAE /* ViewController.m */,
 				1D89E7E420E1DFE300B67CAE /* RACDelegateViewController.h */,
 				1D89E7E520E1DFE300B67CAE /* RACDelegateViewController.m */,
+				1D26ADE721226CDE00E5804B /* LoginViewController.h */,
+				1D26ADE821226CDE00E5804B /* LoginViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -174,6 +197,10 @@
 			children = (
 				1D89E80B20E22A7000B67CAE /* MovieCollectionViewCell.h */,
 				1D89E80C20E22A7000B67CAE /* MovieCollectionViewCell.m */,
+				1DAAEE6D212275C10002B7B4 /* SYDBackGifView.h */,
+				1DAAEE6E212275C10002B7B4 /* SYDBackGifView.m */,
+				1DAAEE70212277D50002B7B4 /* SYDTextfield.h */,
+				1DAAEE71212277D50002B7B4 /* SYDTextfield.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -185,6 +212,12 @@
 				1D89E80620E2252400B67CAE /* ModelBase.m */,
 				1D89E80820E2253200B67CAE /* MovieModel.h */,
 				1D89E80920E2253200B67CAE /* MovieModel.m */,
+				1D26ADEA21226D4300E5804B /* SYDInputValidator.h */,
+				1D26ADEB21226D4300E5804B /* SYDInputValidator.m */,
+				1D26ADEF2122730700E5804B /* SYDLoginModel.h */,
+				1D26ADF02122730700E5804B /* SYDLoginModel.m */,
+				1DAAEE7321227A170002B7B4 /* SYDLoginViewModel.h */,
+				1DAAEE7421227A170002B7B4 /* SYDLoginViewModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -279,6 +312,7 @@
 		1D89E7A520E0DF6D00B67CAE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SYD;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "深圳市木槿科技有限公司";
 				TargetAttributes = {
@@ -322,6 +356,7 @@
 			files = (
 				1D89E7BD20E0DF6F00B67CAE /* LaunchScreen.storyboard in Resources */,
 				1D89E7BA20E0DF6F00B67CAE /* Assets.xcassets in Resources */,
+				1D26ADEE212272EF00E5804B /* backGif.gif in Resources */,
 				1D89E7B820E0DF6D00B67CAE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,9 +407,10 @@
 				"${BUILT_PRODUCTS_DIR}/BlocksKit/BlocksKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/Motis/Motis.framework",
-				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -382,9 +418,10 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BlocksKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motis.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -398,14 +435,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D26ADEC21226D4300E5804B /* SYDInputValidator.m in Sources */,
+				1DAAEE6F212275C10002B7B4 /* SYDBackGifView.m in Sources */,
 				1D89E80720E2252400B67CAE /* ModelBase.m in Sources */,
 				1D89E7B520E0DF6D00B67CAE /* ViewController.m in Sources */,
 				1D89E7C020E0DF6F00B67CAE /* main.m in Sources */,
 				1D89E7E620E1DFE300B67CAE /* RACDelegateViewController.m in Sources */,
 				1D89E80A20E2253300B67CAE /* MovieModel.m in Sources */,
+				1D26ADE921226CDE00E5804B /* LoginViewController.m in Sources */,
+				1D26ADF12122730700E5804B /* SYDLoginModel.m in Sources */,
 				1D89E7B220E0DF6D00B67CAE /* AppDelegate.m in Sources */,
 				1D89E80D20E22A7000B67CAE /* MovieCollectionViewCell.m in Sources */,
+				1DAAEE7521227A170002B7B4 /* SYDLoginViewModel.m in Sources */,
 				1D89E81020E2336500B67CAE /* MovieViewModel.m in Sources */,
+				1DAAEE72212277D50002B7B4 /* SYDTextfield.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,7 +554,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -563,7 +606,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -577,7 +620,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y4K5H3J697;
-				GCC_PREFIX_HEADER = /Users/shenzhenshimujinkejiyouxiangongsi/Desktop/RAC_MVVM/RAC_MVVM/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RAC_MVVM/PrefixHeader.pch";
 				INFOPLIST_FILE = RAC_MVVM/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -597,7 +640,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y4K5H3J697;
-				GCC_PREFIX_HEADER = /Users/shenzhenshimujinkejiyouxiangongsi/Desktop/RAC_MVVM/RAC_MVVM/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RAC_MVVM/PrefixHeader.pch";
 				INFOPLIST_FILE = RAC_MVVM/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

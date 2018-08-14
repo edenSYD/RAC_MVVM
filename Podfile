@@ -6,9 +6,10 @@ target 'RAC_MVVM' do
   use_frameworks!
   pod 'SDWebImage'
   pod 'Motis'
-  pod 'ReactiveCocoa', '~> 2.5'
+  pod 'ReactiveObjC'
   pod 'BlocksKit'
   pod 'AFNetworking'
   pod 'Masonry'
   pod 'SVProgressHUD'
+  pod 'YYKit'
 end

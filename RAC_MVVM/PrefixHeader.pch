@@ -11,8 +11,8 @@
 
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
-#import <ReactiveCocoa/ReactiveCocoa.h>
-#import <ReactiveCocoa/RACEXTScope.h>
+#import <ReactiveObjC/ReactiveObjC.h>
+#import <ReactiveObjC/RACEXTScope.h>
 
 #import <SVProgressHUD/SVProgressHUD.h>
 #import <Masonry/Masonry.h>
@@ -21,7 +21,12 @@
 #import <BlocksKit/A2DynamicDelegate.h>
 #import <Motis/Motis.h>
 #import <AFNetworking/AFNetworking.h>
-
+#import <YYKit/YYKit.h>
 #define scaledCellValue(value) ( floorf(CGRectGetWidth(collectionView.frame) / 375 * (value)) )
+#define WEAKSELF(weakSelf)  __weak __typeof(&*self)weakSelf = self;
 
+#define kWindowWidth ([[UIScreen mainScreen] bounds].size.width)
+#define kWindowHeight ([[UIScreen mainScreen] bounds].size.height)
+
+#define MainColor ([UIColor colorWithRed:61/255.0 green:137/255.0 blue:222/255.0 alpha:1.0])
 #endif /* PrefixHeader_pch */
