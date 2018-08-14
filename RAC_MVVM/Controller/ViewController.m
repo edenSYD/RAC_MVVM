@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "RACDelegateViewController.h"//代理
+#import "LoginViewController.h"
 @interface ViewController ()
 
 @end
@@ -38,14 +39,17 @@
  点击调转到页面2
  */
 -(void)btnClick{
-    RACDelegateViewController *delegateVC = [[RACDelegateViewController alloc]init];
-    //2.订阅信号
-    [delegateVC.delegateSubject subscribeNext:^(id x) {
-        //block调用时刻:信号发出新值就会调用
-        NSLog(@"订阅了");
-        NSLog(@"页面2按钮被点击了");
-    }];
-    [self.navigationController pushViewController:delegateVC animated:YES];
+//    RACDelegateViewController *delegateVC = [[RACDelegateViewController alloc]init];
+//    //2.订阅信号
+//    [delegateVC.delegateSubject subscribeNext:^(id x) {
+//        //block调用时刻:信号发出新值就会调用
+//        NSLog(@"订阅了");
+//        NSLog(@"页面2按钮被点击了");
+//    }];
+//    [self.navigationController pushViewController:delegateVC animated:YES];
+    
+    LoginViewController *loginVc = [[LoginViewController alloc]init];
+    [self.navigationController pushViewController:loginVc animated:YES];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

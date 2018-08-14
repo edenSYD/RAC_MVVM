@@ -26,7 +26,7 @@
             NSString *string = result[@"verCode"];
             NSArray *strArray = [string componentsSeparatedByString:@","];
             if (strArray.count) {
-                self.urlStr = strArray[1];
+                self.URLstring = strArray[1];
             }
         }];
         [[_loginModel rac_valuesAndChangesForKeyPath:@"requestError"

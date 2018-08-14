@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface SYDLoginViewModel : NSObject
-@property(nonatomic,strong) NSString *urlStr;
+@property(nonatomic,strong) NSString *URLstring;
 @property(nonatomic,strong) NSString *getError;
 
 -(void)getVercode;
